@@ -19,15 +19,11 @@
     "format": "prettier --write \"**/*.{astro,js,jsx,ts,tsx,css,scss,md,mdx,yml,yaml,xml,toml,json}\""
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
-    "@typescript-eslint/parser": "^5.42.1",
-    "eslint": "^8.27.0",
-    "eslint-plugin-react": "^7.31.10",
+    "@packages/preset-eslint": "workspace:^",
+    "@packages/preset-prettier": "workspace:^",
+    "@packages/preset-ts": "workspace:^",
     "husky": "^8.0.2",
-    "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.7.0",
-    "turbo": "^1.6.3",
-    "typescript": "^4.8.4"
+    "turbo": "^1.6.3"
   },
   "engines": {
     "node": ">=18.0.0"

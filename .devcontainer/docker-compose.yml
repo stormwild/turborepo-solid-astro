@@ -12,7 +12,7 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     volumes:
       # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
-      - /var/run/docker.sock:/var/run/docker.sock
+      # - /var/run/docker.sock:/var/run/docker.sock
       - '../:/usr/src/app:cached'
       - 'yarn_cache:/root/.cache/yarn:cached'
   app:

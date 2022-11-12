@@ -16,6 +16,7 @@
   "dependencies": {
     "@astrojs/mdx": "^0.11.6",
     "@astrojs/solid-js": "^1.2.2",
+    "@packages/ui": "workspace:^",
     "astro": "^1.6.7",
     "solid-js": "^1.4.3"
   }

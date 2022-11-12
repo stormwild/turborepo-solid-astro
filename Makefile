@@ -3,6 +3,7 @@ DCR=.devcontainer/run
 default: dev
 dev:
 	${DCR} up -d app
+	sleep 3
 	make open
 
 restart:
@@ -16,7 +17,6 @@ install:
 
 open:
 	open http://localhost:3000
-	open http://localhost:6006
 
 sh: bash
 bash:

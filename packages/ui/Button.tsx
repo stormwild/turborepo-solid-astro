@@ -1,4 +1,3 @@
-import * as React from 'react'
-export const Button = () => {
-  return <button>Boop</button>
+export const Button = (props: { children: any }) => {
+  return <button>{props.children}</button>
 }

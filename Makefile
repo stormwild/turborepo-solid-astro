@@ -21,3 +21,18 @@ open:
 sh: bash
 bash:
 	${DCR} app bash
+
+test:
+	${DCR} app yarn test
+
+build:
+	${DCR} app yarn build
+
+lint:
+	${DCR} app yarn lint
+
+format:
+	${DCR} app yarn format
+
+ci:
+	${DCR} app yarn ci

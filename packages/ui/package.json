@@ -13,8 +13,6 @@
   },
   "devDependencies": {
     "@packages/preset-eslint": "workspace:^",
-    "@packages/preset-ts": "workspace:^",
-    "babel-preset-solid": "^1.6.2",
-    "eslint-plugin-solid": "^0.8.0"
+    "@packages/preset-ts": "workspace:^"
   }
 }

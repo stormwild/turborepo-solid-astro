@@ -21,6 +21,8 @@ __metadata:
   dependencies:
     "@astrojs/mdx": ^0.11.6
     "@astrojs/solid-js": ^1.2.2
+    "@packages/preset-eslint": "workspace:^"
+    "@packages/preset-ts": "workspace:^"
     "@packages/ui": "workspace:^"
     astro: ^1.6.7
     solid-js: ^1.4.3
@@ -728,8 +730,6 @@ __metadata:
   dependencies:
     "@packages/preset-eslint": "workspace:^"
     "@packages/preset-ts": "workspace:^"
-    babel-preset-solid: ^1.6.2
-    eslint-plugin-solid: ^0.8.0
     solid-js: ^1.6.2
   languageName: unknown
   linkType: soft
@@ -1386,7 +1386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:^1.4.2, babel-preset-solid@npm:^1.6.2":
+"babel-preset-solid@npm:^1.4.2":
   version: 1.6.2
   resolution: "babel-preset-solid@npm:1.6.2"
   dependencies:

@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           corepack enable
-          yarn install
+          NODE_ENV=development yarn install
 
       - name: Lint source
         run: |

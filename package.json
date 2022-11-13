@@ -9,8 +9,8 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "turbo run dev --no-cache --parallel --continue",
-    "lint": "turbo run lint",
-    "lint:ci": "turbo run lint:ci",
+    "lint": "TIMING=1 eslint \"**/*.{ts,tsx}\"",
+    "lint:ci": "yarn run lint",
     "build": "turbo run build",
     "build:ci": "turbo run build:ci",
     "test": "turbo run test --concurrency=1",

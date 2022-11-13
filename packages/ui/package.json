@@ -4,10 +4,7 @@
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
-  "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\"",
-    "lint:ci": "yarn lint"
-  },
+  "scripts": {},
   "dependencies": {
     "solid-js": "^1.6.2"
   },

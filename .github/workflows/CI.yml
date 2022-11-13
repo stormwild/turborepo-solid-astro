@@ -18,6 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Add node_modules/.bin to $PATH
+        run: |
+          echo "$PWD/node_modules/.bin" >> $GITHUB_PATH
+
       - name: Setup node
         uses: actions/setup-node@v3
         with:

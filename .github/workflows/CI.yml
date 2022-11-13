@@ -27,13 +27,11 @@ jobs:
       - name: Install dependencies
         run: |
           corepack enable
-          NODE_ENV=development yarn install
+          yarn install
 
       - name: Lint source
         run: |
-          echo "$NODE_ENV"
-          ls -la node_modules/.bin
-          NODE_ENV=development yarn run lint:ci
+          yarn run lint:ci
 
       - name: Build apps and packages
         run: |

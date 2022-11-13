@@ -31,7 +31,9 @@ jobs:
 
       - name: Lint source
         run: |
-          yarn run lint:ci
+          echo "$NODE_ENV"
+          ls -la node_modules/.bin
+          NODE_ENV=development yarn run lint:ci
 
       - name: Build apps and packages
         run: |
